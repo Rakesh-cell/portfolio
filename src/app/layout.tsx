@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
@@ -65,6 +66,7 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
+            <SpeedInsights />
           </TooltipProvider>
         </ThemeProvider>
       </body>
