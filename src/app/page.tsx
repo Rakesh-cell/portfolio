@@ -1,4 +1,5 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import IconCloud from "@/components/interactive-cloud-skills";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -12,6 +13,26 @@ import Markdown from "react-markdown";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+      let cloudIconskills = [
+        "react",
+        "typescript",
+        "javascript",
+        "html5",
+        "css3",
+        "git",
+        "visualstudiocode",
+        "jest",
+        "github",
+        "androidstudio",
+        "firebase",
+        "python",
+        "mysql",
+        "jquery",
+        "circleci",
+        "apachecordova",
+        "nextdotjs",
+      ];
+
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
@@ -108,6 +129,9 @@ export default function Page() {
                 <Badge key={skill}>{skill}</Badge>
               </BlurFade>
             ))}
+            <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg  bg-background px-20 pb-20 pt-8 ">
+              <IconCloud iconSlugs={cloudIconskills} />
+          </div>
           </div>
         </div>
       </section>
