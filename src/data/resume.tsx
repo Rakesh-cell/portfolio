@@ -131,6 +131,11 @@ export const DATA = {
           href: "https://play.google.com/store/apps/details?id=com.picstagraph&pcampaignid=web_share",
           icon: <Icons.mobile className="size-3" />,
         },
+        {
+          type: "Appstore",
+          href: "https://apps.apple.com/in/app/picstagraph/id1478106689",
+          icon: <Icons.mobile className="size-3" />,
+        },
       ],
       image: "/Picstagraph.png",
       video:"",
@@ -158,6 +163,11 @@ export const DATA = {
           href: "https://play.google.com/store/apps/details?id=com.coronation.app&pcampaignid=web_share",
           icon: <Icons.mobile className="size-3" />,
         },
+        {
+          type: "Appstore",
+          href: "https://apps.apple.com/th/app/coronation-mobile/id1294712515",
+          icon: <Icons.mobile className="size-3" />,
+        },
   
       ],
       image: "/Coronation.png",
@@ -182,6 +192,11 @@ export const DATA = {
         {
           type: "Playstore",
           href: "https://play.google.com/store/apps/details?id=com.firstbank.firstmobile&pcampaignid=web_share",
+          icon: <Icons.mobile className="size-3" />,
+        },
+        {
+          type: "Appstore",
+          href: "https://apps.apple.com/ng/app/firstmobile-app/id1039809331",
           icon: <Icons.mobile className="size-3" />,
         },
   
@@ -211,6 +226,11 @@ export const DATA = {
           href: "https://play.google.com/store/apps/details?id=com.fbnquest.FBNEdge&pcampaignid=web_share",
           icon: <Icons.mobile className="size-3" />,
         },
+        {
+          type: "Appstore",
+          href: "https://apps.apple.com/us/app/fbn-edge/id1409174091",
+          icon: <Icons.mobile className="size-3" />,
+        },
       ],
       image: "/FBNquest.png",
       video: "",
@@ -236,6 +256,11 @@ export const DATA = {
         {
           type: "Playstore",
           href: "https://play.google.com/store/apps/details?id=com.sbi.myhrms&pcampaignid=web_share",
+          icon: <Icons.mobile className="size-3" />,
+        },
+        {
+          type: "Appstore",
+          href: "https://apps.apple.com/in/app/myhrms/id1142185705",
           icon: <Icons.mobile className="size-3" />,
         },
       ],
