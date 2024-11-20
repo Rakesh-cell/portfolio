@@ -86,7 +86,7 @@ export const DATA = {
       start: "Aug 2021",
       end: "May 2024",
       description:
-        "A highly skilled and 2.10 year experienced React Native developer with proven track record of building robust and scalable web and mobile applications for iOS and Android platforms.Strong expertise in Javascript,React Js, Redux, and other related technology. ",
+        "A highly skilled and 2.5+ year experienced React Native developer with proven track record of building robust and scalable web and mobile applications for iOS and Android platforms.Strong expertise in Javascript,React Js, Redux, and other related technology. ",
     },
    
   ],
