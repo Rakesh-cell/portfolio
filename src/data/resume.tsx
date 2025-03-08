@@ -31,7 +31,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "rakm030@gmail.com",
@@ -88,6 +88,17 @@ export const DATA = {
       description:
         "A highly skilled and 2.5+ year experienced React Native developer with proven track record of building robust and scalable web and mobile applications for iOS and Android platforms.Strong expertise in Javascript,React Js, Redux, and other related technology. ",
     },
+    {
+      company:"Tiger Analytics",
+      href:"https://www.tigeranalytics.com/",
+      badges:[],
+      location:"Bengaluru",
+      title: "Senior Engineer",
+      logoUrl:"/TigerAnalytics.png",
+      start : "Nov 2024",
+      end: "Present",
+      description:"Continuing from wherre we left off. Focused on building mobile and web apps for clients. exploring Working on AI based tech products."
+    }
    
   ],
   education: [
