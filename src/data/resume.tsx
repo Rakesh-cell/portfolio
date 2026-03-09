@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bengaluru, India",
   locationLink: "https://maps.app.goo.gl/PZkSkceoJ2tbKFcX8",
   description:
-    "Passionate Software Engineer. I love building things and contribute postively to grow in career",
+    "Passionate SeniorSoftware Engineer. I love building things and contribute postively to grow in career",
   summary:
-    "At the end of 2021, I got a job as a software engineer to go fulltime into building and scaling web and mobile applications using [React Native/React Js](#skills). In the past, [I pursued a degree in computer science](/#education), and [Have knowledge on Analytics along with python and sql](/#hackathons). I also have experience of Working with building and scaling [5+ projects.](#projects) ",
+    "Senior Software Engineer with 4.2+ YOE of buidling scalable web and mobile applications using [React Native/React Js](#skills). Had experience of Working with building and scaling [7+ projects.](#projects) Over the past year, I have beeen handling full-stack responsibilities, working on backend  development with FastAPI and Django, REST API's ,manageing SQL databases and monitoring applications on Azure. I have contributed to enterprise-grade AI-enabled  applications, focusing on performance optimization, production stability, authentication systems(SSO) and clean architecture practices. I enjoy building reliable products used in real-world business environments.",
   avatarUrl: "/me.png",
   skills: [
     "React Native",
@@ -26,8 +26,9 @@ export const DATA = {
     "HTML/CSS",
     "Python",
     "SQL",
+    "FastAPI",
+    "Django",
     
-
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -97,7 +98,7 @@ export const DATA = {
       logoUrl:"/TigerAnalytics.png",
       start : "Nov 2024",
       end: "Present",
-      description:"Continuing from wherre we left off. Focused on building mobile and web apps for clients. exploring Working on AI based tech products."
+      description:"Working as Senior Software engineer on Enterprise AI applications. Building scalable mobile app and web app solutions using React, React Native, Fast API and Django. Contributing across frontend and backend development with production monitoring and performance optimization."
     }
    
   ],
@@ -120,6 +121,109 @@ export const DATA = {
     },
   ],
   projects: [
+      {
+      title: "PepIris App and Portal",
+      href: "",
+      dates: "Oct 2025 - Present",
+      active: true,
+      description:
+        "An AI-enabled sales audit application that analyses images to extract and validate business data for organization's sales operations.",
+      technologies: [
+        "React Native",
+        "React Hooks",
+        "JavaScript",
+        "React.js",
+        "Agile methodology",
+        "Django",
+        "SQL",
+        "Typescript",
+        "Azure"
+      ],
+      links: [
+        {
+          type: "Playstore",
+          // href: "https://play.google.com/store/apps/details?id=com.picstagraph&pcampaignid=web_share",
+          href: "",
+          icon: <Icons.mobile className="size-3" />,
+        },
+        {
+          type: "Appstore",
+          // href: "https://apps.apple.com/in/app/picstagraph/id1478106689",
+          href: "",
+          icon: <Icons.mobile className="size-3" />,
+        },
+      ],
+      image: ",
+      video:"",
+        // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+     {
+      title: "Brand Health Tracker Chatbot",
+      href: "",
+      dates: "Aug 2025 - Sep 2025",
+      active: true,
+      description:
+        "An AI-Powered chatbot application that enables internal teams to retrive summarized sales and brand performance data through natural language prompts, reducing dependency on Power BI dashboards.",
+      technologies: [
+        "React.js",
+        "JavaScript",
+        "React",
+        "Agile methodology",
+        "Databricks Apps",
+        "Fast API",
+        "SQL"
+      ],
+      links: [
+        {
+          type: "Playstore",
+          // href: "https://play.google.com/store/apps/details?id=com.picstagraph&pcampaignid=web_share",
+          href: "",
+          icon: <Icons.mobile className="size-3" />,
+        },
+        {
+          type: "Appstore",
+          // href: "https://apps.apple.com/in/app/picstagraph/id1478106689",
+          href: "",
+          icon: <Icons.mobile className="size-3" />,
+        },
+      ],
+      image: ",
+      video:"",
+        // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+     {
+      title: "Mars Cocoa Fresh AI",
+      href: "",
+      dates: "Dec 2024 - Jul 2025",
+      active: true,
+      description:
+        "Application uses advanced AI models to instantly analyze and access cocoa bean quality, ensuring high standards and operational efficiency",
+      technologies: [
+        "React Native",
+        "React Hooks",
+        "JavaScript",
+        "React",
+        "Xcode",
+        "Agile methodology",
+      ],
+      links: [
+        {
+          type: "Playstore",
+          // href: "https://play.google.com/store/apps/details?id=com.picstagraph&pcampaignid=web_share",
+          href: "",
+          icon: <Icons.mobile className="size-3" />,
+        },
+        {
+          type: "Appstore",
+          // href: "https://apps.apple.com/in/app/picstagraph/id1478106689",
+          href: "",
+          icon: <Icons.mobile className="size-3" />,
+        },
+      ],
+      image: ",
+      video:"",
+        // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
     {
       title: "Picstagraph",
       href: "https://play.google.com/store/apps/details?id=com.picstagraph&pcampaignid=web_share",
@@ -131,7 +235,7 @@ export const DATA = {
         "React Native",
         "React Hooks",
         "JavaScript",
-        "React",
+        "React.js",
         "NativeBase UI",
         "Xcode",
         "Agile methodology",
